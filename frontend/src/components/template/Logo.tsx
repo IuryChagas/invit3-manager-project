@@ -1,0 +1,26 @@
+import { Righteous } from "next/font/google"  
+import Image from "next/image"
+import Link from "next/link"
+ 
+const font = Righteous({
+    subsets: ["latin"],
+    weight: "400"
+})
+
+export default function Logo() {
+    return(
+        <Link href="/" className={`
+            flex items-center gap-2
+            ${font.className}
+
+        `}>
+            <Image src="/logo.svg" width={50} height={50} alt="Logo" title="Home" />
+            <h1 className="flex flex-col items-center leading-5">
+                <div>
+                    ONLIN<span className="text-blue-500">3</span>
+                </div>
+                <div>INVIT<span className="text-blue-500">3</span>TION</div>
+            </h1>
+        </Link>
+    )
+}
