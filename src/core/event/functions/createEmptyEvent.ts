@@ -1,7 +1,7 @@
-import Event from "../model/Event";
+import Eventx from "../model/Event";
 import Id from "@/core/shared/id";
 
-export default function createEmptyEvent(): Partial<Event> {
+export default function createEmptyEvent(): Partial<Eventx> {
     return {
         id: Id.newhash(),
         name: "",

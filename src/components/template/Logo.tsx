@@ -17,10 +17,10 @@ export default function Logo() {
             <Image src="/logo.svg" width={50} height={50} alt="Logo" title="Home" />
             <h1 className="flex flex-col items-center leading-5">
                 <div>
-                    INVIT<span className="text-blue-500">3</span>
+                    ONLIN<span className="text-blue-500">3</span>
                 </div>
-                <div>DIGITAL</div>
+                <div>INVIT<span className="text-blue-500">3</span>TION</div>
             </h1>
         </Link>
     )
-} 
+}

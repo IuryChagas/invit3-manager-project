@@ -1,6 +1,6 @@
 import Guest from "./Guest";
 
-export default interface Event {
+export default interface Eventx {
     id: string;
     alias: string;
     password: string;

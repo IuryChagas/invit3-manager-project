@@ -8,4 +8,6 @@ export default class Id {
 }
 
 
-// console.log('\n UUID: ',Id.newhash(), '\n')
+// for (let index = 0; index < 100; index++) {
+//   console.log(Id.newhash())
+// }
